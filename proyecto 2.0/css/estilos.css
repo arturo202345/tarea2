@@ -1,0 +1,113 @@
+body{
+    background:#ebb1c1a9;
+}
+div {
+    width:3000px;
+    height:100px ;
+    background: #084DA6;
+    color:white;
+    font-size: 30px;
+}
+img{
+    width: 100px;
+    box-shadow: 0 1px 10px #09bcf2;
+}
+.caja {
+    position: relative;
+    top:;
+    bottom:39.9px ;
+    right:8px ;
+    left: ;
+    box-shadow: 0 1px 10px #09bcf2;
+}
+.caja2{
+    width: 150px;
+    height: 50px;
+    font-size: 9px;
+    position: relative;
+    left: 140px;
+    bottom: 140px;
+
+}
+a{
+    position: relative;
+    top: 20px;
+    color:white;
+    text-decoration:none 
+}
+select{
+    position: relative;
+    background: blue;
+    border-color: blue;
+    color: white;
+    top: 20px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: #09bcf2;
+}
+.caja3{
+    background:#084DA6;
+    width: 350px;
+    position: relative;
+    top: 360px;
+    left: ;
+    color: #fff;
+    font-size: 35px;
+    font-weight:100px;
+    border-color: rgb(251, 251, 251);
+    border-radius: 5px;
+    box-shadow: 0 1px 10px #09bcf2;
+}
+.mi-elemento {
+    width: 300px;
+    height: 50px;
+    background-color: #3498db;
+    position: relative;
+    bottom: 70px;
+    left: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    animation: animacionEjemplo 2s ease-in-out infinite; /* Nombre de la animación, duración, temporización y repetición */
+  }
+  
+  @keyframes animacionEjemplo {
+    0% {
+      transform: scale(1); /* Estado inicial de la animación */
+      background-color:#4ECBD9;
+      box-shadow: 0 1px 10px #09bcf2;
+    }
+    50% {
+      transform: scale(1.1); /* Estado intermedio de la animación */
+      background-color: #4ECBD9;
+    }
+    100% {
+      transform: scale(1); /* Estado final de la animación */
+      background-color: #4ECBD9;
+      box-shadow: 0 1px 10px #09bcf2;
+    }
+  }
+  .entrada-elemento {
+    opacity: 0; /* Elemento inicialmente invisible */
+    transform: translateY(20px); /* Desplazamiento inicial hacia abajo */
+    animation: entradaAnimacion 2s ease-out forwards; /* Nombre de la animación, duración, temporización y retención de propiedades al final */
+  
+    /* Estilos adicionales (puedes personalizar según tus necesidades) */
+    padding: 20px;
+    background-color: #3498db;
+    color: #fff;
+    width: 890px;
+  }
+  
+  @keyframes entradaAnimacion {
+    to {
+      opacity: 1; /* Hacer el elemento completamente visible */
+      transform: translateY(0); /* Desplazamiento final a la posición original */
+    }
+  }
+.new{
+    position: relative;
+    bottom: 120px;
+    left: 110px
+}
